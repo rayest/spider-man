@@ -1,0 +1,31 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+rope = "*"
+
+
+[packages]
+
+scrapy = "*"
+scrapyd = "*"
+schedule = "*"
+pylint = "*"
+"flake8" = "*"
+pymongo = "*"
+pika = "*"
+betamax = "*"
+pytest = "*"
+"bs4" = "*"
+"beautifulsoup4" = "*"
+ccxt = "*"
+
+
+[requires]
+
+python_version = "3.6"

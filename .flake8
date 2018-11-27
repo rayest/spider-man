@@ -1,0 +1,14 @@
+[flake8]
+ignore=build,dist,W293
+max-line-length = 248
+exclude =
+    .git,
+    __pycache__,
+    docs/source/conf.py,
+    old,
+    build,
+    dist,
+    migrations
+    devops
+    .history
+    build.py
